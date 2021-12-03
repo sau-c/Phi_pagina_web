@@ -76,7 +76,7 @@
   color: #ffffff;
 }
 
-.redes .fa-youtube:hover {
+.redes .fa-youtube{
   /*Acciones al pasar el puntero encima*/
   background: rgb(255, 0, 0);
   color: #ffffff;
@@ -116,10 +116,6 @@
   font-size: 25px;
 }
 
-.btn-wsp:hover {
-  background: #fff;
-  color: #25d366;
-}
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .redes a,
   .btn-mas label {
@@ -134,5 +130,12 @@
     border-radius: 50px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
     transition: all 500ms ease; /*Hacer la transición*/
+  }
+
+  .btn-mas label {
+    /*Ajustes del boton principal*/
+    cursor: pointer;
+    background: rgb(255, 174, 0);
+    font-size: 20px;
   }
 }
