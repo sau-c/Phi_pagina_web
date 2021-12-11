@@ -122,10 +122,6 @@ h6 {
   fill: currentColor;
 }
 
-.container {
-  max-width: 960px;
-}
-
 /*
  * Custom translucent site header
  */
@@ -374,10 +370,6 @@ h6 {
     vertical-align: -0.125em;
     fill: currentColor;
   }
-
-  /*.container {
-    max-width: 960px;
-  }*/
 
   /*
    * Custom translucent site header
