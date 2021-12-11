@@ -375,9 +375,9 @@ h6 {
     fill: currentColor;
   }
 
-  .container {
+  /*.container {
     max-width: 960px;
-  }
+  }*/
 
   /*
    * Custom translucent site header
